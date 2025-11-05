@@ -1,0 +1,83 @@
+# Environment files and secrets
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.test
+*.key
+*.pem
+*.crt
+secrets/
+
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Documentation and analysis (not needed in container)
+*.md
+analysis_docs/
+CLAUDE.md
+README.md
+tracing_setup.md
+claue_responses.md
+
+# Test files and examples
+test_script.py
+main_test.py
+example_*.py
+example_direct_mode.py
+example_with_tracing.py
+tests/
+test/
+*.test.py
+
+# Cloud and deployment files (not needed in container)
+.gcloudignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+cloudbuild.yaml
+.github/
+
+# Local development and temp files
+*.log
+*.sqlite
+*.db
+logs/
+tmp/
+temp/
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments (should never be in project dir, but just in case)
+venv/
+env/
+ENV/
+.venv/
+
+# OS files
+Thumbs.db
+.DS_Store
