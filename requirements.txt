@@ -1,0 +1,19 @@
+# FastAPI and Server
+fastapi
+uvicorn
+gunicorn
+python-dotenv
+
+# LangChain and Google Generative AI
+langchain-google-genai
+langchain
+langgraph
+langsmith
+google-generativeai
+
+# Database
+psycopg2-binary
+
+# Other dependencies
+pydantic
+requests

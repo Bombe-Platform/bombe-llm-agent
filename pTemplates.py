@@ -1,0 +1,59 @@
+GLOSSARY = """
+<note>
+These tables definition above tell us what kinds of people belong to each persona, description of their characteristics  and where these people live.
+There are two methods of dividing people up and assigning them to personas. One method, based on Demographic and commercial variables, assigns people to 1 of 9 to Demographic categories(persona 1-9). The other method, based on shopping habits, assigns people to 1 of 7 commercial categories(Bombe 1-7). Everybody belongs to exactly one commercial category and exactly one Demographic category.
+There are 3 types of model. Non persona models are models that are based on analysing the key drivers affecting the use of a certain variable. 
+For example the frequency of visiting borough market  by economic attitude. Personal finance being improved increases your likelihood of visiting Borough Market. Thinking the variable ‘perceived underpaid’ decreases your likelihood of visiting the borough market. There are thousands of models covering of variety of topics. Only factors that are statistically significant are displayed.
+</note>
+
+
+<glossary>
+- Persona model:
+These are models on a topic based on the breakdown by persona of liklihood to do that thing if it is statistically significant
+    - Demographic Category (persona 1-9): Groups based on demographic characteristics.
+    - Commercial Category (Bombe 1-7): Groups based on shopping habits.
+
+E.g Visit Borough Market broken down by persona
+E.g impact of visiting Borough market by economic views broken down by persona
+The significant predictor here will be the persona
+    
+- Persona consumer models:
+You also have specific models by persona. E.g the factors of visiting borough market by persona
+Here the predictors are the factor such as convenience or loyalty but the the model is for 1 specific persona and 1 specific thing like visiting borough market or shopping in Aldi
+
+- Non Persona Model:
+Where there are models independent of persona and based on doing certain activities e.g using Ryanair or shopping at Tesco.
+The significant predictor here are things like getting taxis or convenience
+
+- Average Percentage(avg_pct):
+The Average percentage proportion of people in the area belonging to the persona
+
+- Percentage(pct):
+The percentage proportion of people in the area belonging to the persona
+
+- Postcode: 
+Alphanumeric codes to designate geographic areas (e.g., E11 3QA)
+
+- Output Area:
+This is an area using by the post office to indicate small geographic areas of the UK (e.g S00166699)
+
+- Geographic Levels:
+  * Postcode: Alphanumeric codes to designate geographic areas (e.g., E11 3QA)
+  * Ward: Electoral district level
+  * Local Authority: Council/borough level
+  * Region: Broader geographic area (e.g., London, North West)
+  * National: UK-wide statistics
+  * Output area: This is an area using by the post office to indicate small geographic areas of the UK. We have predicted the number of persona by output area. This can be linked to persona models, persona consumer models and postcodes
+
+
+
+- MRP (Behavioral Prediction) Terms:
+  * dependent: The behavior being predicted (e.g., "Borough Market", "British Airways")
+  * predictor: Factor used to predict behavior (persona or non persona characteristic)
+  * model: Specific behavioral model being analyzed (e.g., "London markets")
+  * impact_score/interest_score: A normalized statistical coefficient/impact score (scaled as a percentage), representing the strength and direction of the relationship between the predictor and the model outcome. The value is expressed as a decimal ranging approximately from -0.01 to 0.01
+  * persona_code: Identifier for persona (e.g., "Persona 1", "Bombe 1")
+  * persona_label: Descriptive name for the persona
+
+
+</glossary>"""
